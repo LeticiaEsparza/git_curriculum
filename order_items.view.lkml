@@ -7,6 +7,8 @@ view: order_items {
     sql: ${TABLE}.id ;;
   }
 
+#edit for curriculum module 1 
+
   dimension: inventory_item_id {
     type: number
     # hidden: yes
