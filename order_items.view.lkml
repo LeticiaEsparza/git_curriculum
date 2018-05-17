@@ -16,7 +16,9 @@ view: order_items {
     sql: ${TABLE}.inventory_item_id ;;
   }
 
-#this is the second user for the module 1 git curriculm merge conflict exercise
+
+#this is another test for the merge confict
+
   dimension: order_id {
     type: number
     # hidden: yes
