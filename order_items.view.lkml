@@ -7,7 +7,7 @@ view: order_items {
     sql: ${TABLE}.id ;;
   }
 
-#edit for curriculum module 1 
+#edit for curriculum module 1
 #same exercise but in dev branch
 
   dimension: inventory_item_id {
@@ -16,6 +16,7 @@ view: order_items {
     sql: ${TABLE}.inventory_item_id ;;
   }
 
+#this is another test for the merge confict
   dimension: order_id {
     type: number
     # hidden: yes
