@@ -6,6 +6,8 @@ include: "*.view"
 # include all the dashboards
 include: "*.dashboard"
 
+#deploy webhook test
+
 datagroup: git_curriculum_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
   max_cache_age: "1 hour"
