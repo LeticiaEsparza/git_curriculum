@@ -7,6 +7,7 @@ view: order_items {
     sql: ${TABLE}.id ;;
   }
 
+
 #edit for curriculum module 1
 #same exercise but in dev branch
 
@@ -18,6 +19,8 @@ view: order_items {
 
 
 #this is another test for the merge confict
+
+#this is another test for fun :) 
 
   dimension: order_id {
     type: number
