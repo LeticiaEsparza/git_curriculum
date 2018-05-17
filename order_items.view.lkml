@@ -8,6 +8,7 @@ view: order_items {
   }
 
 #edit for curriculum module 1 
+#same exercise but in dev branch
 
   dimension: inventory_item_id {
     type: number
