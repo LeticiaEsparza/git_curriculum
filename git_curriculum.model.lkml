@@ -6,6 +6,8 @@ include: "*.view"
 # include all the dashboards
 # include: "*.dashboard"
 
+#test two projects from different instances & one repo
+
 #deploy webhook test
 
 datagroup: git_curriculum_default_datagroup {
