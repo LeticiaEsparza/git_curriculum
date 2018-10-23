@@ -9,6 +9,9 @@ include: "*.view"
 #test two projects from different instances & one repo
 #second test for journeyman
 
+#first test for reverting
+#second test for reverting
+
 
 #deploy webhook test
 
