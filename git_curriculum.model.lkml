@@ -7,6 +7,7 @@ include: "*.view"
 # include: "*.dashboard"
 
 #test two projects from different instances & one repo
+#second test for journeyman
 
 #deploy webhook test
 
