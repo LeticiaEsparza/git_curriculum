@@ -8,7 +8,7 @@ include: "*.view"
 
 #test two projects from different instances & one repo
 #second test for journeyman
-# third test for quiz
+
 
 #deploy webhook test
 
