@@ -72,6 +72,17 @@ explore: orders {
   }
 }
 
+explore: order_items_test {
+  from: order_items
+  join: order_items_two {
+    from: order_items
+    type: left_outer
+    sql_on: ${order_items_test.id}=${order_items_two.id};;
+    relationship: many_to_one
+
+  }
+}
+
 explore: products {}
 
 explore: schema_migrations {}

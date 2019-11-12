@@ -2,6 +2,14 @@ view: order_items {
   sql_table_name: demo_db.order_items ;;
 
   dimension: id {
+    label: "{% if _view._name == 'order_items_test' %}
+              Order Items Test ID
+            {% elsif  _view._name == 'order_items_two' %}
+              Order Items Two ID
+            {% else %}
+              _field.name
+            {% endif %}
+            "
     primary_key: yes
     type: number
     sql: ${TABLE}.id ;;
@@ -20,7 +28,7 @@ view: order_items {
 
 #this is another test for the merge confict
 
-#this is another test for fun :) 
+#this is another test for fun :)
 
   dimension: order_id {
     type: number
